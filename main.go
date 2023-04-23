@@ -18,9 +18,9 @@ type Vehicle struct {
 }
 
 var vehicles = []Vehicle{
-	{1, "Toyota", "camry", 50000},
-	{2, "Honda", "civic", 90000},
-	{3, "Range rover", "vela", 120000},
+	{1, "Toyota", "Camry", 50000},
+	{2, "Honda", "Civic", 90000},
+	{3, "Range rover", "Royce rolls", 120000},
 }
 
 func returnAllCars(w http.ResponseWriter, r *http.Request) {
